@@ -1,0 +1,32 @@
+# Python script to print ways to die
+
+def list_ways_to_die():
+    ways_to_die = [
+        "Eaten by a shark while surfing",
+        "Struck by lightning while golfing",
+        "Falling into a volcano",
+        "Trapped in a quicksand pit",
+        "Attacked by a swarm of bees",
+        "Crushed by a falling piano",
+        "Lost in the Bermuda Triangle",
+        "Mauled by a bear while camping",
+        "Caught in a blizzard",
+        "Struck by a meteor",
+        "Hit by a runaway train",
+        "Falling off a cliff",
+        "Sucked into a black hole",
+        "Caught in a tornado",
+        "Overeating at a buffet",
+        "Spontaneous combustion",
+        "Bitten by a venomous snake",
+        "Falling from a hot air balloon",
+        "Shipwrecked on a deserted island",
+        "Attacked by a zombie horde"
+    ]
+
+    for i, way in enumerate(ways_to_die, 1):
+        print(f"{i}. {way}")
+
+if __name__ == "__main__":
+    print("Here are some hypothetical ways you can die:")
+    list_ways_to_die()
